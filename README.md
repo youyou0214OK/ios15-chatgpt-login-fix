@@ -8,7 +8,6 @@
 - `Session expired`
 
 通常是重定向过程中 **会话 Cookie 丢失/被阻止** 导致登录流程无法完成。
-
  思路（TL;DR）
 1. 在一台能正常登录的桌面浏览器上复制会话 Cookie `__Secure-next-auth.session-token` 的值。
 2. 在 iOS 15 设备上用书签脚本把该 Cookie 写入到 `chatgpt.com` 域。
