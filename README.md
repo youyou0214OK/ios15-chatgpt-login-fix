@@ -24,7 +24,7 @@
 
 （2） iOS（Safari）创建书签脚本
 1. 在 Safari 随便打开一个网页 → **分享** → **添加书签**（命名为 `Set Cookie`）。  
-2. 打开 **书签 → 编辑 → Set Cookie**，把 URL 替换为以下脚本（把 `PASTE_YOUR_TOKEN_HERE` 换成上一步复制的值）：
+2. 打开 **书签 → 编辑 → Set Cookie**，把 URL 替换为以下脚本（把 `在这里插入你的sessiontoken` 换成上一步复制的值）：
 
 javascript：
 javascript:(function(){document.cookie="__Secure-next-auth.session-token=在这里插入你的sessiontoken; domain=chatgpt.com; path=/; secure";alert('成功');})()
